@@ -28,6 +28,12 @@
   value="https://orangehrm.com/30-day-free-trial"/>
   <parameter name="browser" value="edge"/>
   
+  <test  name="AmazonPage" >
+  
+  <parameter name="url" 
+  value="https://www.amazon.in/"/>
+  <parameter name="browser" value="chrome"/>
+  
    <classes>
      <class name="UITests.OrangeHRM"></class>
    </classes>
